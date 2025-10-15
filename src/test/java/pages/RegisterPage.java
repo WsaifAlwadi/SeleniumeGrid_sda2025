@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class RegisterPage extends BasePage {
-
+//rigesteration
     @FindBy(id = "firstName") private WebElement firstNameInput;
     @FindBy(id = "lastName") private WebElement lastNameInput;
     @FindBy(id = "email") private WebElement emailInput;
