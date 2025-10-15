@@ -9,7 +9,7 @@ public class ContactListPage extends BasePage {
 
     @FindBy(id = "add-contact") private WebElement addContactBtn;
     @FindBy(xpath = "//table//tr") private List<WebElement> contactRows;
-
+//list pages methodes
     public AddContactPage clickAddContact() {
         addContactBtn.click();
         return new AddContactPage();
