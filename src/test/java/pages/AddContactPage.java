@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class AddContactPage extends BasePage {
-
+//this cod for contact page
     @FindBy(id = "firstName") private WebElement firstName;
     @FindBy(id = "lastName") private WebElement lastName;
     @FindBy(id = "submit") private WebElement submitBtn;
@@ -13,6 +13,7 @@ public class AddContactPage extends BasePage {
         firstName.sendKeys(name);
         return this;
     }
+
 
     public AddContactPage enterLastName(String name) {
         lastName.sendKeys(name);
