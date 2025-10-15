@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class EditContactPage extends BasePage {
-
+//edit to contact
     @FindBy(id = "edit-contact") private WebElement editBtn;
     @FindBy(id = "firstName") private WebElement firstNameInput;
     @FindBy(id = "submit") private WebElement saveBtn;
